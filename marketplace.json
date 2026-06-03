@@ -1,0 +1,20 @@
+{
+  "name": "eric",
+  "interface": {
+    "displayName": "Eric"
+  },
+  "plugins": [
+    {
+      "name": "vibe-coding",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vibe-coding"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

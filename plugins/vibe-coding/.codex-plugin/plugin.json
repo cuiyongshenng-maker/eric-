@@ -1,0 +1,22 @@
+{
+  "name": "vibe-coding",
+  "version": "0.1.0",
+  "description": "A Codex plugin that guides fast natural-language-driven coding sessions from idea to verified working change.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe Coding",
+    "shortDescription": "Turn ideas into working code through focused Codex iteration.",
+    "longDescription": "Vibe Coding gives Codex a practical workflow for turning loose product ideas into small, verified software changes while keeping scope, safety, and handoff clear.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "coding",
+      "planning",
+      "debugging"
+    ],
+    "defaultPrompt": "Use the vibe-coding workflow to help me build a small working version of my idea."
+  }
+}
