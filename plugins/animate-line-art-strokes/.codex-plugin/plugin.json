@@ -1,0 +1,33 @@
+{
+  "name": "animate-line-art-strokes",
+  "version": "0.1.0",
+  "description": "Turn one approved black-line drawing into a locally rendered draw-on MP4 with final-frame QA.",
+  "author": {
+    "name": "Eric",
+    "url": "https://github.com/cuiyongshenng-maker"
+  },
+  "repository": "https://github.com/cuiyongshenng-maker/eric-",
+  "keywords": [
+    "animation",
+    "line-art",
+    "draw-on",
+    "video"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "逐笔线稿动画",
+    "shortDescription": "把已确认的单张线稿转换为本地逐笔动画并完成终帧质检。",
+    "longDescription": "锁定用户已确认的线稿构图，在本地追踪和排序笔画，生成逐笔绘制 MP4，并通过解码终帧对比和动作条带完成质量检查。",
+    "developerName": "Eric",
+    "category": "Creative",
+    "capabilities": [
+      "animation",
+      "local-rendering",
+      "quality-assurance"
+    ],
+    "defaultPrompt": [
+      "把这张已确认的线稿制作成逐笔绘制动画。",
+      "按指定区域顺序绘制这张线稿并输出质检结果。"
+    ]
+  }
+}
