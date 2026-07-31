@@ -1,0 +1,4 @@
+interface:
+  display_name: "逐笔线稿动画"
+  short_description: "把已确认的单张线稿转换为本地逐笔动画并完成终帧质检"
+  default_prompt: "Use $animate-line-art-strokes to turn this approved line-art image into a reviewed draw-on MP4."

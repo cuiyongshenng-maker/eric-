@@ -15,6 +15,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "animate-line-art-strokes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/animate-line-art-strokes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
     }
   ]
 }
